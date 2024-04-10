@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gamecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.startbutton {
+    text-decoration: none;
+    margin: .2em;
+    padding: .4em;
+    background-color: #00ccc0;
+    border-radius: 4px;
+    color: #373636;
+    transition: .5s;
+}
+
+.startbutton:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+.x {
+    color: #e7f53c;
+    font-size: 84px;
+}
